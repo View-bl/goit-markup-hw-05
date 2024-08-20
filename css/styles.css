@@ -551,6 +551,7 @@ width: 360px;
 margin-bottom: 16px;
 }
 .form-wrraper-cont {
+  margin-bottom: 8px;
 }
 .modal-form-labal {
 
@@ -571,9 +572,51 @@ margin-bottom: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 34px;
+  outline: none;
+  transition: border 250ms linear;
+ 
+
+}
+.modal-input:focus{
+  border-color:  #4d5ae5;
+  
 }
 .modal-icon {
   position: absolute;
   top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  transition: stroke 250ms linear;
+  
 }
+.modal-input:focus+.modal-icon {
+  fill: #4d5ae5;
+  
+}
+
+.form-wrraper-cont-coment {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+
+}
+.modal-form-labal-coment {
+}
+.modal-textarea {border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+
+}
+.modal-textarea::placeholder {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+}
+
+
 /* #endregion backdrop */
