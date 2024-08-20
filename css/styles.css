@@ -562,6 +562,7 @@ button {
   color: #8e8f99;
   display: block;
   margin-bottom: 8px;
+  line-height: 1.17;
 }
 .modal-cont-input {
   position: relative;
