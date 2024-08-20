@@ -568,7 +568,8 @@ button {
   position: relative;
 }
 .modal-input {
-  background-color: transparent;
+
+  
   padding-left: 38px;
   outline: transparent;
   width: 100%;
