@@ -435,7 +435,7 @@ button {
 }
 
 .footer-main {
-  max-width: 264px;
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -461,6 +461,7 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  
 }
 
 
@@ -479,20 +480,20 @@ button {
 
 
 .text-subscribe {
- display: block;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #fff;
-margin-bottom: 16px;
-
-}
-.form-subscribe-label-email {
   display: flex;
-gap: 24px;
-margin-left: 80px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+  margin-left: 15px;
+  flex-direction: column;
+  margin-right: 537px;
+  
 }
+
 
 .form-subscribe {
   display: flex;
@@ -518,6 +519,8 @@ margin-left: 80px;
   color: #ffffff;
 }
 .footer-subscribe {
+ 
+ 
   margin-left: 80px;
 }
 .btn-footer-subscribe {
@@ -539,6 +542,11 @@ margin-left: 80px;
 }
 .buttom-svg {
   margin-left: 16px;
+}
+.btn-footer-subscribe:hover,
+.btn-footer-subscribe:focus {
+  background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -772,5 +780,6 @@ margin-left: 80px;
 .modal-submid:focus {
   color: #fff;
   background-color: #404bbf;
+  
 }
 /* #endregion backdrop */
