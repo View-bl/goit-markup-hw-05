@@ -461,10 +461,7 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
-  
 }
-
-
 
 .icon-our-ti {
   display: flex;
@@ -475,9 +472,6 @@ button {
 .images-iconik:focus {
   background-color: #31d0aa;
 }
-
-
-
 
 .text-subscribe {
   display: flex;
@@ -490,27 +484,22 @@ button {
   text-align: center;
   margin-left: 15px;
   margin-left: 0;
-  
-  
 }
-
 
 .form-subscribe {
   display: flex;
   gap: 24px;
-
 }
 
-
 .email-input-pole {
-  width: 264px; 
+  width: 264px;
   height: 40px;
   border: 1px solid #fff;
   background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  padding-left: 16px; 
+  padding-left: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #fff;
@@ -519,17 +508,15 @@ button {
   color: #ffffff;
 }
 .footer-subscribe {
- 
- 
   margin-left: 80px;
 }
 .btn-footer-subscribe {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   min-width: 165px;
   height: 40px;
-  display: flex; 
+  display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -548,16 +535,6 @@ button {
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
-
-
-
-
-
-
-
 
 /* #endregion backdrop */
 .backdrop {
@@ -732,9 +709,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: transparent;
-   
-   
+  fill: transparent;
 }
 .checkbox:checked + .custom-label-user-checkbox .custom-checkbox {
   border: none;
@@ -742,7 +717,7 @@ button {
 .checkbox:checked + .custom-label-user-checkbox > .custom-checkbox {
   border-color: transparent;
   background-color: #404bbf;
-  fill: #F4F4FD; 
+  fill: #f4f4fd;
 }
 
 .custom-label-user-checkbox {
@@ -780,28 +755,5 @@ button {
 .modal-submid:focus {
   color: #fff;
   background-color: #404bbf;
-  
 }
 /* #endregion backdrop */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
