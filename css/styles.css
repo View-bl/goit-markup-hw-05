@@ -489,8 +489,8 @@ button {
   color: #fff;
   text-align: center;
   margin-left: 15px;
-  flex-direction: column;
-  margin-right: 537px;
+  margin-left: 0;
+  
   
 }
 
