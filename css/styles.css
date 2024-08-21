@@ -479,7 +479,7 @@ button {
 
 
 .text-subscribe {
- 
+ display: block;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -487,6 +487,11 @@ letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
 
+}
+.form-subscribe-label-email {
+  display: flex;
+gap: 24px;
+margin-left: 80px;
 }
 
 .form-subscribe {
